@@ -17,7 +17,7 @@ class homepage extends StatelessWidget {
       title: Row(
         children: [
           Image.asset(
-            "lib/images/iste_logo.png",
+            "lib/assets/images/logo.png",
             height: 40, // control size
             width: 40,
             fit: BoxFit.contain,

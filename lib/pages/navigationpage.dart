@@ -20,7 +20,7 @@ class _navigationpageState extends State<navigationpage> {
   List pages = [
     const homepage(),
     const eventspage(),
-    const domainspage(),
+    const domainspage(userRole: UserRole.board,),
     const notificationpage(),
     const accountpage()
   ];
