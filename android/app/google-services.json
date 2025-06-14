@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "778592409323",
+    "project_id": "istemanipal-1708a",
+    "storage_bucket": "istemanipal-1708a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778592409323:android:80e8fbe265795ee2d6d0ae",
+        "android_client_info": {
+          "package_name": "com.example.iste_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778592409323-efg24m974g386f0de38fp36hhk8gqmdt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0O74SThlGiBAPiMz7HzF7E9hLoNtQXes"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778592409323-efg24m974g386f0de38fp36hhk8gqmdt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
