@@ -3,7 +3,12 @@ class Assets {
   Assets._();
 
   static const String generatedAssets = 'lib/generated/assets.dart';
+  static const String imagesAiml = 'lib/assets/images/aiml.webp';
+  static const String imagesBook = 'lib/assets/images/book.png';
+  static const String imagesBulb = 'lib/assets/images/bulb.png';
+  static const String imagesFeaturedEvent = 'lib/assets/images/featured_event.png';
   static const String imagesIsteLogo = 'lib/assets/images/iste_logo.png';
+  static const String imagesLeadership = 'lib/assets/images/leadership.png';
   static const String imagesLogo = 'lib/assets/images/logo.png';
   static const String libFirebaseOptions = 'lib/firebase_options.dart';
   static const String libMain = 'lib/main.dart';

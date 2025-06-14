@@ -76,7 +76,7 @@ class homepage extends StatelessWidget {
                 borderRadius: BorderRadius.circular(20),
                 boxShadow: [
                   BoxShadow(
-                    color: colorScheme.primary.withOpacity(0.8),
+                    color: Colors.blueAccent,
                     blurRadius: 10,
                     offset: const Offset(0, 5),
                   ),
@@ -159,7 +159,7 @@ class homepage extends StatelessWidget {
                   ClipRRect(
                     borderRadius: BorderRadius.vertical(top: Radius.circular(16)),
                     child: Image.asset(
-                      'lib/images/featured_event.png',
+                      'lib/assets/images/featured_event.png',
                       fit: BoxFit.cover,
                       width: double.infinity,
                       height: 150,
@@ -181,11 +181,11 @@ class homepage extends StatelessWidget {
                         const SizedBox(height: 4),
                         Text(
                           'Thursday, 7:00 PM',
-                          style: GoogleFonts.manrope(fontSize: 13, color: colorScheme.secondary),
+                          style: GoogleFonts.manrope(fontSize: 13, color: Colors.white),
                         ),
                         Text(
                           'ISTE Manipal',
-                          style: GoogleFonts.manrope(fontSize: 13, color: colorScheme.secondary),
+                          style: GoogleFonts.manrope(fontSize: 13, color:  Colors.white),
                         ),
                       ],
                     ),
@@ -213,14 +213,14 @@ class homepage extends StatelessWidget {
                   children: [
                     _buildEventCard(
                       context,
-                      'lib/images/aiml.png',
+                      'lib/assets/images/aiml.webp',
                       'Webinar on AI in Education',
                       'Wed, 12/11',
                     ),
                     const SizedBox(width: 12),
                     _buildEventCard(
                       context,
-                      'lib/images/leadership.png',
+                      'lib/assets/images/leadership.png',
                       'ISTE Leadership Conference',
                       'Fri, 12/13',
                     ),
