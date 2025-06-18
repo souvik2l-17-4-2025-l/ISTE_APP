@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:iste_app/pages/domainspage.dart';
+import 'package:iste_app/pages/homepage.dart';
 import 'package:iste_app/pages/loginPage.dart';
 import 'package:iste_app/pages/navigationpage.dart';
 import 'package:iste_app/theme/theme.dart';
@@ -6,7 +8,6 @@ import 'package:iste_app/theme/themeprovider.dart';
 import 'package:provider/provider.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
-
 
 
 Future<void> main() async {
@@ -40,7 +41,8 @@ class MyApp extends StatelessWidget {
               theme: lightmode,
               darkTheme: darkmode,
               themeMode: t.themeMode,
-              home: LoginScreen()),
+              home: navigationpage(),//domainspage(userRole: UserRole.mancom),
+        ),
         )
     );
 
