@@ -12,7 +12,7 @@ class eventspage extends StatelessWidget {
         title: const Text('Events'),
         centerTitle: true,
         elevation: 0,
-        leading: const BackButton(),
+        //leading: const BackButton(),
         actions: const [Icon(Icons.search)],
       ),
       floatingActionButton: FloatingActionButton(

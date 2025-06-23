@@ -8,6 +8,8 @@ import 'package:iste_app/theme/themeprovider.dart';
 import 'package:provider/provider.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
+import 'package:iste_app/provider/auth_provider.dart';
+import 'package:iste_app/pages/auth_page.dart';
 
 
 Future<void> main() async {
@@ -32,7 +34,8 @@ class MyApp extends StatelessWidget {
               themeprovider t = themeprovider();
               return t;
             },
-          )
+          ),
+          ChangeNotifierProvider(create: (context) => AuthProvider())
         ],
         child: Consumer<themeprovider>(
           builder: (context, t, child) => MaterialApp(
@@ -41,7 +44,7 @@ class MyApp extends StatelessWidget {
               theme: lightmode,
               darkTheme: darkmode,
               themeMode: t.themeMode,
-              home: navigationpage(),//domainspage(userRole: UserRole.mancom),
+              home: const AuthPage(),
         ),
         )
     );

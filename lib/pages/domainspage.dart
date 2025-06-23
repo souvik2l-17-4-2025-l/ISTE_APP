@@ -255,6 +255,7 @@ class _domainspageState extends State<domainspage> {
               // Search functionality
             },
             icon: Icon(
+              //padding: EdgeInsets.symmetric(horizontal: 4,vertical: 2),
               Icons.search,
               color: isDarkTheme ? colorScheme.primary : Colors.white,
               size: 24,
